@@ -18,8 +18,15 @@
 // add different styles of comments to this code
 Console.WriteLine("What kind of thing are we talking about?");
 string a = Console.ReadLine();
+// ask user for the noun
 Console.WriteLine("How would you describe it? Big? Azure? Tattered?");
 string b = Console.ReadLine();
+// ask user for the adjective
 string c = "of Doom";
 string d = "3000";
+/*
+let user know how bad ass it is
+everyone loves of Dooms 
+and 3000s
+*/
 Console.WriteLine("The " + b + " " + a + " " + c + " " + d + "!");
