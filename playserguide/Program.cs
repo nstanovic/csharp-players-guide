@@ -93,7 +93,7 @@ Console.WriteLine(largestUintNumber);
 Console.WriteLine(biggestUlong);
 Console.WriteLine(biggestUshort);
 */
-
+/*
 // part 1. ask user for base and height of triangle
 double baseOfTriangle = double.Parse(Console.ReadLine());
 double heightOfTriangle = double.Parse(Console.ReadLine());
@@ -103,3 +103,5 @@ double areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2;
 
 // part 3. print out area of triangle
 Console.WriteLine(areaOfTriangle);
+*/
+
