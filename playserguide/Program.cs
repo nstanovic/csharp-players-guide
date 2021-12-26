@@ -47,3 +47,17 @@ uint largestUintNumber = 4_294_967_295;
 ulong biggestUlong = 18_446_744_073_709_551_615;
 ushort biggestUshort = 65_535;
 
+// part 2. print out the variables
+Console.WriteLine(age);
+Console.WriteLine(name);
+Console.WriteLine(isMale);
+Console.WriteLine(height);
+Console.WriteLine(weight);
+Console.WriteLine(hairColor);
+Console.WriteLine(shoeSize);
+Console.WriteLine(largestLong);
+Console.WriteLine(smallestShort);
+Console.WriteLine(dinnersEaten);
+Console.WriteLine(largestUintNumber);
+Console.WriteLine(biggestUlong);
+Console.WriteLine(biggestUshort);
