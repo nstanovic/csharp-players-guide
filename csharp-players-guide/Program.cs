@@ -114,4 +114,12 @@ int eggsPerSister = chocolateEggs / 4;
 int eggsForDuckbear = chocolateEggs % 4;
 
 // part 3. what are 3 amounts of eggs where duckbear gets more eggs than any of the sisters?
-
+// choose 3 odd numbers because they can't be split evenly
+if (eggsForDuckbear > eggsPerSister)
+{
+    Console.WriteLine("Duckbear is happy because he gets more eggs than any of the sisters.");
+}
+else
+{
+    Console.WriteLine("Duckbear is sad because he gets less eggs than any of the sisters.");
+}
