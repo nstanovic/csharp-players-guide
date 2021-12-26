@@ -113,5 +113,5 @@ int chocolateEggs = int.Parse(Console.ReadLine());
 int eggsPerSister = chocolateEggs / 4;
 int eggsForDuckbear = chocolateEggs % 4;
 
-
+// part 3. what are 3 amounts of eggs where duckbear gets more eggs than any of the sisters?
 
