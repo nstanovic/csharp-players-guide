@@ -106,7 +106,8 @@ Console.WriteLine(areaOfTriangle);
 */
 
 // part 1. ask user for number of chocolate eggs
-
+Console.WriteLine("How many chocolate eggs do you have?");
+int chocolateEggs = int.Parse(Console.ReadLine());
 
 // part 2. distribute eggs among 4 sisters and give remainder to pet duckbear
 
