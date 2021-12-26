@@ -31,3 +31,19 @@ and 3000s
 */
 // Console.WriteLine("The " + b + " " + a + " " + c + " " + d + "!");
 
+// part 1. declare and assign 14 variables of different types
+// int, string, bool, double, float, char, decimal, long, short, byte, uint, ulong, ushort
+int age = 38;
+string name = "Nick";
+bool isMale = true;
+double height = 5.9;
+float weight = 171.5f;
+char hairColor = 'b';
+decimal shoeSize = 10.5m;
+long largestLong = 9_223_372_036_854_775_807;
+short smallestShort = -32_768;
+byte dinnersEaten = 0;
+uint largestUintNumber = 4_294_967_295;
+ulong biggestUlong = 18_446_744_073_709_551_615;
+ushort biggestUshort = 65_535;
+
