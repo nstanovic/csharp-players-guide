@@ -105,4 +105,3 @@ double areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2;
 Console.WriteLine(areaOfTriangle);
 */
 
-Console.WriteLine("Time to take a break!");
