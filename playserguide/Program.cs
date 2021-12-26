@@ -94,3 +94,7 @@ Console.WriteLine(biggestUlong);
 Console.WriteLine(biggestUshort);
 */
 
+// part 1. ask user for base and height of triangle
+double baseOfTriangle = double.Parse(Console.ReadLine());
+double heightOfTriangle = double.Parse(Console.ReadLine());
+
