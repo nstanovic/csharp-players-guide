@@ -101,3 +101,5 @@ double heightOfTriangle = double.Parse(Console.ReadLine());
 // part 2. calculate area of triangle
 double areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2;
 
+// part 3. print out area of triangle
+Console.WriteLine(areaOfTriangle);
