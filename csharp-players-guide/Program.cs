@@ -105,3 +105,9 @@ double areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2;
 Console.WriteLine(areaOfTriangle);
 */
 
+// part 1. ask user for number of chocolate eggs
+
+
+// part 2. distribute eggs among 4 sisters and give remainder to pet duckbear
+
+
