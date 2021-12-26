@@ -33,7 +33,7 @@ and 3000s
 
 // part 1. declare and assign 14 variables of different types
 // int, string, bool, double, float, char, decimal, long, short, byte, uint, ulong, ushort
-/*
+
 int age = 38;
 string name = "Nick";
 bool isMale = true;
@@ -62,5 +62,20 @@ Console.WriteLine(dinnersEaten);
 Console.WriteLine(largestUintNumber);
 Console.WriteLine(biggestUlong);
 Console.WriteLine(biggestUshort);
-*/
+
+// part 3. assign a new value to each variable
+age = 24;
+name = "Becki";
+isMale = false;
+height = 5.2;
+weight = 109.5f;
+hairColor = 'r';
+shoeSize = 5.5m;
+largestLong = 8_223_372_036_854_775_807;
+smallestShort = -2_768;
+dinnersEaten = 1;
+largestUintNumber = 4_294_967_294;
+biggestUlong = 18_446_744_073_709_551_613;
+biggestUshort = 65_533;
+
 
