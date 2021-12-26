@@ -104,7 +104,7 @@ double areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2;
 // part 3. print out area of triangle
 Console.WriteLine(areaOfTriangle);
 */
-
+/*
 // part 1. ask user for number of chocolate eggs
 Console.WriteLine("How many chocolate eggs do you have?");
 int chocolateEggs = int.Parse(Console.ReadLine());
@@ -123,3 +123,4 @@ else
 {
     Console.WriteLine("Duckbear is sad because he gets less eggs than any of the sisters.");
 }
+*/
