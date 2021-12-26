@@ -127,7 +127,26 @@ else
 
 // part 1. there are 3 users: Melik, Casik, and Balik
 // ask each person how many estates, duchies, and provinces they own
+Console.WriteLine("Melik, how many estates do you own?");
+int melikEstates = int.Parse(Console.ReadLine());
+Console.WriteLine("Melik, how many duchies do you own?");
+int melikDuchies = int.Parse(Console.ReadLine());
+Console.WriteLine("Melik, how many provinces do you own?");
+int melikProvinces = int.Parse(Console.ReadLine());
 
+Console.WriteLine("Casik, how many estates do you own?");
+int casikEstates = int.Parse(Console.ReadLine());
+Console.WriteLine("Casik, how many duchies do you own?");
+int casikDuchies = int.Parse(Console.ReadLine());
+Console.WriteLine("Casik, how many provinces do you own?");
+int casikProvinces = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Balik, how many estates do you own?");
+int balikEstates = int.Parse(Console.ReadLine());
+Console.WriteLine("Balik, how many duchies do you own?");
+int balikDuchies = int.Parse(Console.ReadLine());
+Console.WriteLine("Balik, how many provinces do you own?");
+int balikProvinces = int.Parse(Console.ReadLine());
 
 // part 2. add up the point total for each person
 // estates = 1 point, duchies = 3 points, provinces = 6 points
