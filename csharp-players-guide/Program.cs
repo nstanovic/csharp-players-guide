@@ -150,7 +150,9 @@ int balikProvinces = int.Parse(Console.ReadLine());
 
 // part 2. add up the point total for each person
 // estates = 1 point, duchies = 3 points, provinces = 6 points
-
+int melikPoints = (melikEstates * 1) + (melikDuchies * 3) + (melikProvinces * 6);
+int casikPoints = (casikEstates * 1) + (casikDuchies * 3) + (casikProvinces * 6);
+int balikPoints = (balikEstates * 1) + (balikDuchies * 3) + (balikProvinces * 6);
 
 // part 3. print out the total points for each person
 
