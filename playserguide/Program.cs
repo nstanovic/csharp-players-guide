@@ -78,4 +78,19 @@ largestUintNumber = 4_294_967_294;
 biggestUlong = 18_446_744_073_709_551_613;
 biggestUshort = 65_533;
 
+// part 4. print out the new values
+Console.WriteLine(age);
+Console.WriteLine(name);
+Console.WriteLine(isMale);
+Console.WriteLine(height);
+Console.WriteLine(weight);
+Console.WriteLine(hairColor);
+Console.WriteLine(shoeSize);
+Console.WriteLine(largestLong);
+Console.WriteLine(smallestShort);
+Console.WriteLine(dinnersEaten);
+Console.WriteLine(largestUintNumber);
+Console.WriteLine(biggestUlong);
+Console.WriteLine(biggestUshort);
+
 
