@@ -98,3 +98,6 @@ Console.WriteLine(biggestUshort);
 double baseOfTriangle = double.Parse(Console.ReadLine());
 double heightOfTriangle = double.Parse(Console.ReadLine());
 
+// part 2. calculate area of triangle
+double areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2;
+
