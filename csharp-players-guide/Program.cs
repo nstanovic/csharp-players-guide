@@ -155,4 +155,7 @@ int casikPoints = (casikEstates * 1) + (casikDuchies * 3) + (casikProvinces * 6)
 int balikPoints = (balikEstates * 1) + (balikDuchies * 3) + (balikProvinces * 6);
 
 // part 3. print out the total points for each person
+Console.WriteLine("Melik has " + melikPoints + " points.");
+Console.WriteLine("Casik has " + casikPoints + " points.");
+Console.WriteLine("Balik has " + balikPoints + " points.");
 
