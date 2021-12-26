@@ -124,7 +124,7 @@ else
     Console.WriteLine("Duckbear is sad because he gets less eggs than any of the sisters.");
 }
 */
-
+/*
 // part 1. there are 3 users: Melik, Casik, and Balik
 // ask each person how many estates, duchies, and provinces they own
 Console.WriteLine("Melik, how many estates do you own?");
@@ -159,4 +159,4 @@ Console.WriteLine("");
 Console.WriteLine("Melik has " + melikPoints + " points.");
 Console.WriteLine("Casik has " + casikPoints + " points.");
 Console.WriteLine("Balik has " + balikPoints + " points.");
-
+*/
