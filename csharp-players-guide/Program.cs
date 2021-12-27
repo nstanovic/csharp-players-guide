@@ -186,10 +186,10 @@ int southCornerY = yCoordinate - 1;
 // part 4a. make the deployment instructions a different color
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("Deploy to:");
-Console.WriteLine($"{eastCornerX}, {yCoordinate}");;
-Console.WriteLine($"{westCornerX}, {yCoordinate}");;
-Console.WriteLine($"{xCoordinate}, {northCornerY}");;
-Console.WriteLine($"{xCoordinate}, {southCornerY}");;
+Console.WriteLine($"({eastCornerX}, {yCoordinate})");;
+Console.WriteLine($"({westCornerX}, {yCoordinate})");;
+Console.WriteLine($"({xCoordinate}, {northCornerY})");;
+Console.WriteLine($"({xCoordinate}, {southCornerY})");;
 Console.ResetColor();
 
 // part 5. play a beep when the results have been displayed
