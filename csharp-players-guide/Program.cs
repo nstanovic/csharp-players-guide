@@ -173,7 +173,6 @@ Console.Title = "Defense of Consolas";
 // part 2. ask user for an x and y coordinate to launch the fireball
 Console.Write("Enter an x coordinate (row) to launch the fireball: ");
 int xCoordinate = int.Parse(Console.ReadLine());
-Console.WriteLine();
 Console.Write("Enter a y coordinate (column) to launch the fireball: ");
 int yCoordinate = int.Parse(Console.ReadLine());
 
