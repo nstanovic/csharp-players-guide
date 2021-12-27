@@ -166,3 +166,18 @@ Console.WriteLine("Balik has " + balikPoints + " points.");
   four crew members must each hold a corner of the shield to block
   one crew member must stand north, south, east, and of the epicenter to block
 */
+
+// part 1. make the console window title to be "Defense of Consolas"
+
+
+// part 2. ask user for x and y coordinates
+
+
+// part 3. compute the x and y coordinates of each corner of the shield
+
+
+// part 4. give each crew a coordinate to stand in
+// part 4a. make the deployment instructions a different color
+
+
+// part 5. play a beep when the results have been displayed
