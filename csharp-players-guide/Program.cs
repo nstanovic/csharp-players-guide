@@ -160,3 +160,9 @@ Console.WriteLine("Melik has " + melikPoints + " points.");
 Console.WriteLine("Casik has " + casikPoints + " points.");
 Console.WriteLine("Balik has " + balikPoints + " points.");
 */
+
+/*
+  fireballs are being launched into the city at user chosen x and y coordinates
+  four crew members must each hold a corner of the shield to block
+  one crew member must stand north, south, east, and of the epicenter to block
+*/
