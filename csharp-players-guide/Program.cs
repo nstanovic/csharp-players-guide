@@ -165,7 +165,7 @@ Console.WriteLine("Balik has " + balikPoints + " points.");
   fireballs are being launched into the city at user chosen x and y coordinates
   four crew members must each hold a corner of the shield to block
   one crew member must stand north, south, east, and of the epicenter to block
-*/
+
 
 // part 1. make the console window title to be "Defense of Consolas"
 Console.Title = "Defense of Consolas";
@@ -194,3 +194,4 @@ Console.ResetColor();
 
 // part 5. play a beep when the results have been displayed
 Console.Beep();
+*/
