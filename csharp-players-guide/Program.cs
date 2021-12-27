@@ -168,7 +168,7 @@ Console.WriteLine("Balik has " + balikPoints + " points.");
 */
 
 // part 1. make the console window title to be "Defense of Consolas"
-
+Console.Title = "Defense of Consolas";
 
 // part 2. ask user for x and y coordinates
 
