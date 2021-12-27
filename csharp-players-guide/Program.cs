@@ -178,7 +178,10 @@ Console.Write("Enter a y coordinate (column) to launch the fireball: ");
 int yCoordinate = int.Parse(Console.ReadLine());
 
 // part 3. compute the x and y coordinates of each corner of the shield
-
+int eastCornerX = xCoordinate + 1;
+int westCornerX = xCoordinate - 1;
+int northCornerY = yCoordinate + 1;
+int southCornerY = yCoordinate - 1;
 
 // part 4. give each crew a coordinate to stand in
 // part 4a. make the deployment instructions a different color
