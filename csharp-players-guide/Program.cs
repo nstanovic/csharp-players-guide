@@ -170,8 +170,12 @@ Console.WriteLine("Balik has " + balikPoints + " points.");
 // part 1. make the console window title to be "Defense of Consolas"
 Console.Title = "Defense of Consolas";
 
-// part 2. ask user for x and y coordinates
-
+// part 2. ask user for an x and y coordinate to launch the fireball
+Console.Write("Enter an x coordinate (row) to launch the fireball: ");
+int xCoordinate = int.Parse(Console.ReadLine());
+Console.WriteLine();
+Console.Write("Enter a y coordinate (column) to launch the fireball: ");
+int yCoordinate = int.Parse(Console.ReadLine());
 
 // part 3. compute the x and y coordinates of each corner of the shield
 
