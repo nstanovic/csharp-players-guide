@@ -194,3 +194,4 @@ Console.WriteLine($"{xCoordinate}, {southCornerY}");;
 Console.ResetColor();
 
 // part 5. play a beep when the results have been displayed
+Console.Beep();
