@@ -211,3 +211,13 @@ else
     Console.WriteLine("tock");
 */
 
+/* Watchtower
+Watchtowers in the area can alert you when the enemy is spotted
+with your help they d which direction the enemy is coming from
+ */
+
+// Ask user for x and y values
+
+
+// Determine the direction of the enemy relative to the given coordinates
+// for reference, the enemy is located at (0,0)
