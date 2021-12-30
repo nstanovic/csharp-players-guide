@@ -248,7 +248,7 @@ else if (y == 0 && x > 0)
 A nearby shop is disorganized and needs your help to report the price of each item
 use a switch statement to determine the price of each item
 */
-/*
+
 // part #. Display a menu of items
 Console.WriteLine("The following items are available: ");
 Console.WriteLine("1 - Rope ");
@@ -277,7 +277,7 @@ string response = choice switch
 
 // part #. display the item and cost to user
 Console.WriteLine(response);
-*/
+
     
 /* Discounted Inventory
 modify previous exercise to ask for person's name
