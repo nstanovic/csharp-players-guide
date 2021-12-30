@@ -261,5 +261,5 @@ Console.WriteLine("7 - Food Supplies ");
 
 // part 2. Ask user to select an item
 Console.WriteLine("What number do you want to see the price of?");
-string choice = Console.ReadLine();
+int choice = Convert.ToInt32(Console.ReadLine());
 
