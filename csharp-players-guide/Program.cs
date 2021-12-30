@@ -278,3 +278,8 @@ string response = choice switch
 // part 4. display the item and cost to user
 Console.WriteLine(response);
 */
+    
+/* Discounted Inventory
+modify previous exercise to ask for person's name
+if name is my name, display a 50% discount
+*/
