@@ -249,6 +249,10 @@ A nearby shop is disorganized and needs your help to report the price of each it
 use a switch statement to determine the price of each item
 */
 
+// part 1. Ask user for their name
+Console.WriteLine("What is your name?");
+string name = Console.ReadLine();
+
 // part #. Display a menu of items
 Console.WriteLine("The following items are available: ");
 Console.WriteLine("1 - Rope ");
