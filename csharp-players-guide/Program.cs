@@ -201,3 +201,11 @@ Console.Beep();
 // Repairing The Clocktower
 // take number as input from user
 // fix the clock by making the pendulum tick on even numbers and tock on odd numbers
+Console.WriteLine("Please enter a number: ");
+int clock = Int32.Parse(Console.ReadLine());
+bool tick = clock % 2 == 0;
+
+if (tick)
+    Console.WriteLine("tick");
+else
+    Console.WriteLine("tock");
