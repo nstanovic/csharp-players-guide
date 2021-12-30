@@ -276,3 +276,4 @@ string response = choice switch
 };
 
 // part 4. display the item and cost to user
+Console.WriteLine(response);
