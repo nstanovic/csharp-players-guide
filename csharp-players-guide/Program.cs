@@ -266,13 +266,13 @@ int choice = Convert.ToInt32(Console.ReadLine());
 // part 3. Use switch statements or a switch to determine item's cost
 string response = choice switch
 {
-    1 => "10 gold",
-    2 => "15 gold",
-    3 => "25 gold",
-    4 => "1 gold",
-    5 => "20 gold",
-    6 => "200 gold",
-    7 => "1 gold",
+    1 => "Rope: 10 gold",
+    2 => "Torches: 15 gold",
+    3 => "Climbing Equipment: 25 gold",
+    4 => "Clean Water: 1 gold",
+    5 => "Machete: 20 gold",
+    6 => "Canoe: 200 gold",
+    7 => "Food Supplies: 1 gold",
 };
 
 // part 4. display the item and cost to user
