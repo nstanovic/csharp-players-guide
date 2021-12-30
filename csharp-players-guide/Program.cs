@@ -274,3 +274,5 @@ string response = choice switch
     6 => "200 gold",
     7 => "1 gold",
 };
+
+// part 4. display the item and cost to user
