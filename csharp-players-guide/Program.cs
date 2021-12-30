@@ -253,6 +253,10 @@ use a switch statement to determine the price of each item
 Console.WriteLine("What is your name?");
 string name = Console.ReadLine();
 
+// part 2. If name is "Nick" give 50% discount
+if (name == "Nick")
+    Console.WriteLine("Welcome, " + name + "! You get a 50% discount!");
+
 // part #. Display a menu of items
 Console.WriteLine("The following items are available: ");
 Console.WriteLine("1 - Rope ");
