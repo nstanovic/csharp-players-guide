@@ -259,7 +259,7 @@ Console.WriteLine("5 - Machete");
 Console.WriteLine("6 - Canoe");
 Console.WriteLine("7 - Food Supplies ");
 
-// part 2. Ask user to display a number from the menu
+// part 2. Ask user to display a number from the menu then use a switch expression for the response
+Console.WriteLine("What number do you want to see the price of?");
+string choice = Console.ReadLine();
 
-
-// part 3. Use switch statements or a switch expression to show item's cost
