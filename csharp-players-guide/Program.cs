@@ -257,7 +257,7 @@ string name = Console.ReadLine();
 if (name == "Nick")
     Console.WriteLine("Welcome, " + name + "! You get a 50% discount!");
 
-// part #. Display a menu of items
+// part 3. Display a menu of items
 Console.WriteLine("The following items are available: ");
 Console.WriteLine("1 - Rope ");
 Console.WriteLine("2 - Torches");
@@ -267,7 +267,7 @@ Console.WriteLine("5 - Machete");
 Console.WriteLine("6 - Canoe");
 Console.WriteLine("7 - Food Supplies ");
 
-// part #. Ask user to select an item
+// part 4. Ask user to select an item
 Console.WriteLine("What number do you want to see the price of?");
 int choice = Convert.ToInt32(Console.ReadLine());
 
