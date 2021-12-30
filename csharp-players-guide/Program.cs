@@ -214,7 +214,7 @@ else
 /* Watchtower
 Watchtowers in the area can alert you when the enemy is spotted
 with your help they d which direction the enemy is coming from
- */
+
 
 // part 1. Ask user for x and y values
 Console.WriteLine("enter x coordinate: ");
@@ -242,4 +242,4 @@ else if (y < 0 && x > 0)
     Console.WriteLine("The enemy is to the southeast!");
 else if (y == 0 && x > 0)
     Console.WriteLine("The enemy is to the east!");
-
+*/
