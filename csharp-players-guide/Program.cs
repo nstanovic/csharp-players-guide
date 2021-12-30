@@ -284,6 +284,17 @@ string response = choice switch
 };
 
 // part 6: Store the price of each items in a switch expression
+int price = choice switch
+{
+    1 => 10,
+    2 => 15,
+    3 => 25,
+    4 => 1,
+    5 => 20,
+    6 => 200,
+    7 => 1,
+};
+
 
 // part #. display the item and cost to user
 Console.WriteLine(response);
