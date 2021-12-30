@@ -224,3 +224,22 @@ int y = Int32.Parse(Console.ReadLine());
 
 // part 2. Determine the direction of the enemy relative to the given coordinates
 // for reference, the enemy is located at (0,0)
+if (x == 0 && y == 0)
+    Console.WriteLine("The enemy is here!");
+else if (y > 0 && x > 0)
+    Console.WriteLine("The enemy is to the northeast!");
+else if (y > 0 && x == 0) 
+    Console.WriteLine("The enemy is to the north!");
+else if (y > 0 && x < 0)
+    Console.WriteLine("The enemy is to the northwest!");
+else if (y == 0 && x < 0)
+    Console.WriteLine("The enemy is to the west!");
+else if (y < 0 && x < 0)
+    Console.WriteLine("The enemy is to the southwest!");
+else if (y < 0 && x == 0)
+    Console.WriteLine("The enemy is to the south!");
+else if (y < 0 && x > 0)
+    Console.WriteLine("The enemy is to the southeast!");
+else if (y == 0 && x > 0)
+    Console.WriteLine("The enemy is to the east!");
+
