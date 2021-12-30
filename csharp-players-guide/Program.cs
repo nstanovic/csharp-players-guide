@@ -248,3 +248,11 @@ else if (y == 0 && x > 0)
 A nearby shop is disorganized and needs your help to report the price of each item
 use a switch statement to determine the price of each item
 */
+
+// part 1. Display a menu of items
+
+
+// part 2. Ask user to display a number from the menu
+
+
+// part 3. Use switch statements or a switch expression to show item's cost
