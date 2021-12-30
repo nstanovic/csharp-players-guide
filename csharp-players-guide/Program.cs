@@ -243,3 +243,8 @@ else if (y < 0 && x > 0)
 else if (y == 0 && x > 0)
     Console.WriteLine("The enemy is to the east!");
 */
+
+/* Buying Inventory
+A nearby shop is disorganized and needs your help to report the price of each item
+use a switch statement to determine the price of each item
+*/
