@@ -249,7 +249,7 @@ A nearby shop is disorganized and needs your help to report the price of each it
 use a switch statement to determine the price of each item
 */
 /*
-// part 1. Display a menu of items
+// part #. Display a menu of items
 Console.WriteLine("The following items are available: ");
 Console.WriteLine("1 - Rope ");
 Console.WriteLine("2 - Torches");
@@ -259,11 +259,11 @@ Console.WriteLine("5 - Machete");
 Console.WriteLine("6 - Canoe");
 Console.WriteLine("7 - Food Supplies ");
 
-// part 2. Ask user to select an item
+// part #. Ask user to select an item
 Console.WriteLine("What number do you want to see the price of?");
 int choice = Convert.ToInt32(Console.ReadLine());
 
-// part 3. Use switch statements or a switch to determine item's cost
+// part #. Use switch statements or a switch to determine item's cost
 string response = choice switch
 {
     1 => "Rope: 10 gold",
@@ -275,7 +275,7 @@ string response = choice switch
     7 => "Food Supplies: 1 gold",
 };
 
-// part 4. display the item and cost to user
+// part #. display the item and cost to user
 Console.WriteLine(response);
 */
     
