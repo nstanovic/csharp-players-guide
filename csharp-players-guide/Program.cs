@@ -263,7 +263,7 @@ Console.WriteLine("7 - Food Supplies ");
 Console.WriteLine("What number do you want to see the price of?");
 int choice = Convert.ToInt32(Console.ReadLine());
 
-// part 3. Use switch statements or a switch expression to show item's cost
+// part 3. Use switch statements or a switch to determine item's cost
 string response = choice switch
 {
     1 => "10 gold",
