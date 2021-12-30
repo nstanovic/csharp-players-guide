@@ -217,7 +217,10 @@ with your help they d which direction the enemy is coming from
  */
 
 // Ask user for x and y values
-
+Console.WriteLine("enter x coordinate: ");
+int x = Int32.Parse(Console.ReadLine());
+Console.WriteLine("enter y coordinate: ");
+int y = Int32.Parse(Console.ReadLine());
 
 // Determine the direction of the enemy relative to the given coordinates
 // for reference, the enemy is located at (0,0)
