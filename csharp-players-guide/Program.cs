@@ -283,6 +283,8 @@ string response = choice switch
     7 => "Food Supplies",
 };
 
+// part 6: Store the price of each items in a switch expression
+
 // part #. display the item and cost to user
 Console.WriteLine(response);
 
