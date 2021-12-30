@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
+using System.Threading.Channels;
 
 // Console.WriteLine("Hello, Nick!");
 
@@ -195,3 +197,7 @@ Console.ResetColor();
 // part 5. play a beep when the results have been displayed
 Console.Beep();
 */
+
+// Repairing The Clocktower
+// take number as input from user
+// fix the clock by making the pendulum tick on even numbers and tock on odd numbers
