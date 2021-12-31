@@ -322,3 +322,14 @@ if name is my name, display a 50% discount
  we keep asking until hunter finds the ship
  if correct space chosen we congratulate the hunter
 */
+
+// Part 1. Ask pilot for the space number to hide the airship
+
+
+// Part 2. Ask hunter to guess the location number of the airship
+
+
+// Part 3. Keep asking the hunter to guess until finds the ship
+
+
+// Part 4. Congratulate the hunter for finding the airship
