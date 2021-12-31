@@ -336,6 +336,25 @@ while (shipHidingSpot is < 0 or > 100);
 
 // Part 2. Ask hunter to guess the location number of the airship
 // Keep asking the hunter to guess until finds the ship
+int huntersSpotChoice;
 
+do
+{
+    Console.WriteLine("Pick a space between 0 and 100 to check for the airship");
+    huntersSpotChoice = Convert.ToInt32(Console.ReadLine());
+    if (huntersSpotChoice == shipHidingSpot)
+    {
+        Console.WriteLine("Congratulations, you found the ship!");
+    }
+    else if (huntersSpotChoice < shipHidingSpot)
+    {
+        Console.WriteLine("Too low, try again!");
+    }
+    else if (huntersSpotChoice > shipHidingSpot)
+    {
+        Console.WriteLine("Too high, try again!");
+    }
+} 
+while (huntersSpotChoice != shipHidingSpot);
 
 // Part 4. Congratulate the hunter for finding the airship
