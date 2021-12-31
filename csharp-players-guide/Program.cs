@@ -324,9 +324,7 @@ if name is my name, display a 50% discount
 */
 
 // Part 1. Ask pilot for the space number to hide the airship
-
-
-// Part 1a. If number is less than 0 or grater than 100 keep asking
+// If number is less than 0 or grater than 100 keep asking
 
 
 // Part 2. Ask hunter to guess the location number of the airship
