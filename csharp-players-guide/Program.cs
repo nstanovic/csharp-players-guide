@@ -356,5 +356,3 @@ do
     }
 } 
 while (huntersSpotChoice != shipHidingSpot);
-
-// Part 4. Congratulate the hunter for finding the airship
