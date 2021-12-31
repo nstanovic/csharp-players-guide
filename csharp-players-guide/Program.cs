@@ -328,9 +328,7 @@ if name is my name, display a 50% discount
 
 
 // Part 2. Ask hunter to guess the location number of the airship
-
-
-// Part 3. Keep asking the hunter to guess until finds the ship
+// Keep asking the hunter to guess until finds the ship
 
 
 // Part 4. Congratulate the hunter for finding the airship
