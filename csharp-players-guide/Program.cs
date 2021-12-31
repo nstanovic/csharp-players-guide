@@ -322,7 +322,7 @@ if name is my name, display a 50% discount
  we keep asking until hunter finds the ship
  if correct space chosen we congratulate the hunter
 */
-
+/*
 // Part 1. Ask pilot for the space number to hide the airship
 // If number is less than 0 or grater than 100 keep asking
 int shipHidingSpot;
@@ -357,3 +357,5 @@ do
     Console.WriteLine();
 } 
 while (huntersSpotChoice != shipHidingSpot);
+*/
+
