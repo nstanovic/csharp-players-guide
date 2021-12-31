@@ -307,11 +307,16 @@ int price = choice switch
 };
 
 // part 6. display the item and cost to user with a discount
-Console.WriteLine($"The price of {response} is {price * discount} gold");
-
-    
+Console.WriteLine($"The price of {response} is {price * discount} gold");   
 /* Discounted Inventory
 modify previous exercise to ask for person's name
 if name is my name, display a 50% discount
 */
 
+/* The Prototype
+ Hunt down the airship
+ Two users: the airship pilot and the hunter
+ pilot picks a space between 1 - 100 to hide airship
+ hunter picks a space to guess which space the ship is hiding
+ we tell the hunter if the number is too high or too low 
+*/
