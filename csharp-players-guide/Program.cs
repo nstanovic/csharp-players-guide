@@ -354,5 +354,6 @@ do
     {
         Console.WriteLine("Too high, try again!");
     }
+    Console.WriteLine();
 } 
 while (huntersSpotChoice != shipHidingSpot);
