@@ -248,7 +248,7 @@ else if (y == 0 && x > 0)
 A nearby shop is disorganized and needs your help to report the price of each item
 use a switch statement to determine the price of each item
 */
-
+/*
 // part 1. Ask user for their name
 Console.WriteLine("What is your name?");
 string name = Console.ReadLine();
@@ -314,3 +314,4 @@ Console.WriteLine($"The price of {response} is {price * discount} gold");
 modify previous exercise to ask for person's name
 if name is my name, display a 50% discount
 */
+
