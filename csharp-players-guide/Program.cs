@@ -252,6 +252,7 @@ use a switch statement to determine the price of each item
 // part 1. Ask user for their name
 Console.WriteLine("What is your name?");
 string name = Console.ReadLine();
+Console.WriteLine();
 
 double discount = 1;
 
@@ -265,7 +266,7 @@ else
 {
     Console.WriteLine("Welcome, " + name + "!");
 }
-
+Console.WriteLine();
 
 // part 3. Display a menu of items
 Console.WriteLine("The following items are available: ");
@@ -276,11 +277,11 @@ Console.WriteLine("4 - Clean Water");
 Console.WriteLine("5 - Machete");
 Console.WriteLine("6 - Canoe");
 Console.WriteLine("7 - Food Supplies ");
-
+Console.WriteLine();
 // part 4. Ask user to select an item
 Console.WriteLine("What number do you want to see the price of?");
 int choice = Convert.ToInt32(Console.ReadLine());
-
+Console.WriteLine();
 // part 5. Use switch statements or a switch to determine item's cost
 string response = choice switch
 {
