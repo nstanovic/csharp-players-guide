@@ -261,6 +261,10 @@ if (name == "Nick")
     discount = .5;
     Console.WriteLine("Welcome, " + name + "! You get a 50% discount!");
 }
+else
+{
+    Console.WriteLine("Welcome, " + name + "!");
+}
 
 
 // part 3. Display a menu of items
