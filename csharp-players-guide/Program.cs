@@ -316,7 +316,7 @@ if name is my name, display a 50% discount
 /* The Prototype
  Hunt down the airship
  Two users: the airship pilot and the hunter
- pilot picks a space between 1 - 100 to hide airship
+ pilot picks a space between 0 - 100 to hide airship
  hunter picks a space to guess which space the ship is hiding
  we tell the hunter if the number is too high or too low 
  we keep asking until hunter finds the ship
