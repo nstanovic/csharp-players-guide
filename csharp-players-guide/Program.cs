@@ -319,4 +319,6 @@ if name is my name, display a 50% discount
  pilot picks a space between 1 - 100 to hide airship
  hunter picks a space to guess which space the ship is hiding
  we tell the hunter if the number is too high or too low 
+ we keep asking until hunter finds the ship
+ if correct space chosen we congratulate the hunter
 */
