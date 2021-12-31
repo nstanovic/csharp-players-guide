@@ -325,7 +325,14 @@ if name is my name, display a 50% discount
 
 // Part 1. Ask pilot for the space number to hide the airship
 // If number is less than 0 or grater than 100 keep asking
+int shipHidingSpot;
 
+do
+{
+    Console.WriteLine("Pick a space between 0 and 100 to hide your ship");
+    shipHidingSpot = Convert.ToInt32(Console.ReadLine());
+}
+while (shipHidingSpot is < 0 or > 100);
 
 // Part 2. Ask hunter to guess the location number of the airship
 // Keep asking the hunter to guess until finds the ship
