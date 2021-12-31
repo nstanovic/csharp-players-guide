@@ -305,9 +305,8 @@ int price = choice switch
     7 => 1,
 };
 
-
-// part #. display the item and cost to user
-Console.WriteLine(response);
+// part 6. display the item and cost to user with a discount
+Console.WriteLine($"The price of {response} is {price * discount} gold");
 
     
 /* Discounted Inventory
