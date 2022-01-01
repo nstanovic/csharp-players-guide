@@ -420,7 +420,7 @@ for (int x = 0; x < 5; x++)
     array1[x] = Convert.ToInt32(Console.ReadLine());
 }
 // part 3. make a second array with length of 5
-
+int[] array2 = new int[5];
 
 // part 4. use a loop to copy the first array to the new
 
