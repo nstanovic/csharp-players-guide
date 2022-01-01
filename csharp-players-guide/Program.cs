@@ -413,8 +413,12 @@ for (int shots=1; shots < 101; shots++)
 int[] array1 = new int[5];
 
 // part 2. ask user for 5 numbers to put in array
-
-
+Console.WriteLine("We need your help to place 5 numbers in an array.");
+for (int x = 0; x < 5; x++)
+{
+    Console.WriteLine($"Input a number for Value {x+1} in the array: ");
+    array1[x] = Convert.ToInt32(Console.ReadLine());
+}
 // part 3. make a second array with length of 5
 
 
