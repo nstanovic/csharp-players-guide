@@ -370,16 +370,16 @@ The 3 different types of blasts each need their own colors
 */
 
 // part 1. 'for' loop to fire cannon 100 times
-for (int shots=1; shots < 101; shots++)
-// part 2. if statement to indicate fire blast every 3 turns
-    if (shots % 3 == 0)
+for (int shots=1; shots < 101; shots++) 
+// part 2. if statement to indicate fiery electric blast if both parts 2 and 3 are true
+    if (shots % 15 == 0)
+        Console.WriteLine("Fiery Electric Blast");
+// part 3. if statement to indicate fire blast every 3 turns
+    else if (shots % 3 == 0)
         Console.WriteLine("Fire Blast");
-// part 3. if statement to indicate electric blast every 5 turns
+// part 4. if statement to indicate electric blast every 5 turns
     else if (shots % 5 == 0)
         Console.WriteLine("Electric Blast");
-// part 4. if statement to indicate fiery electric blast if both parts 2 and 3 are true
-    else if (shots % 15 == 0)
-        Console.WriteLine("Fiery Electric Blast");
 // part 5. else statement to indicate normal shot on all other turns
     else
         Console.WriteLine("Normal Shot");
