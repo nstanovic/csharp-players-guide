@@ -370,8 +370,7 @@ The 3 different types of blasts each need their own colors
 */
 
 // part 1. 'for' loop to fire cannon 100 times
-
-
+for (int shots=1; shots < 101; shots++)
 // part 2. if statement to indicate fire blast every 3 turns
 
 
