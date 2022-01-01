@@ -368,7 +368,7 @@ Every fifth turn the electric gem activates for an electric blast
 If a turn activates both the fire and electric gems there is a fiery electric blast
 The 3 different types of blasts each need their own colors
 */
-
+/*
 // part 1. 'for' loop to fire cannon 100 times
 for (int shots=1; shots < 101; shots++) 
 // part 2. if statement to indicate fiery electric blast if both parts 2 and 3 are true
@@ -398,4 +398,5 @@ for (int shots=1; shots < 101; shots++)
         Console.WriteLine($"Shot {shots}: Normal Shot");
     }
 // part 6. go back and add colors to the special blasts
+*/
 
