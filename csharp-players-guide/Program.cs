@@ -409,3 +409,16 @@ for (int shots=1; shots < 101; shots++)
  display contents of both arrays to illustrate the Replicator of D'To works
 */
 
+// part 1. create array with length of 5
+
+
+// part 2. ask user for 5 numbers to put in array
+
+
+// part 3. make a second array with length of 5
+
+
+// part 4. use a loop to copy the first array to the new
+
+
+// part 5. display the contents of each array
