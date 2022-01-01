@@ -378,7 +378,8 @@ for (int shots=1; shots < 101; shots++)
     else if (shots % 5 == 0)
         Console.WriteLine("Electric Blast");
 // part 4. if statement to indicate fiery electric blast if both parts 2 and 3 are true
-
+    else if (shots % 15 == 0)
+        Console.WriteLine("Fiery Electric Blast");
 
 // part 5. else statement to indicate normal shot on all other turns
 
