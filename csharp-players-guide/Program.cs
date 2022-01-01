@@ -368,3 +368,21 @@ Every fifth turn the electric gem activates for an electric blast
 If a turn activates both the fire and electric gems there is a fiery electric blast
 The 3 different types of blasts each need their own colors
 */
+
+// part 1. 'for' loop to fire cannon 100 times
+
+
+// part 2. if statement to indicate fire blast every 3 turns
+
+
+// part 3. if statement to indicate electric blast every 5 turns
+
+
+// part 4. if statement to indicate fiery electric blast if both parts 2 and 3 are true
+
+
+// part 5. else statement to indicate normal shot on all other turns
+
+
+// part 6. go back and add colors to the special blasts
+
