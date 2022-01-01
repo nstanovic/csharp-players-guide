@@ -373,16 +373,16 @@ The 3 different types of blasts each need their own colors
 for (int shots=1; shots < 101; shots++) 
 // part 2. if statement to indicate fiery electric blast if both parts 2 and 3 are true
     if (shots % 15 == 0)
-        Console.WriteLine("Fiery Electric Blast");
+        Console.WriteLine($"Shot {shots}: Fiery Electric Blast");
 // part 3. if statement to indicate fire blast every 3 turns
     else if (shots % 3 == 0)
-        Console.WriteLine("Fire Blast");
+        Console.WriteLine($"Shot {shots}: Fire Blast");
 // part 4. if statement to indicate electric blast every 5 turns
     else if (shots % 5 == 0)
-        Console.WriteLine("Electric Blast");
+        Console.WriteLine($"Shot {shots}: Electric Blast");
 // part 5. else statement to indicate normal shot on all other turns
     else
-        Console.WriteLine("Normal Shot");
+        Console.WriteLine($"Shot {shots}: Normal Shot");
 
 // part 6. go back and add colors to the special blasts
 
