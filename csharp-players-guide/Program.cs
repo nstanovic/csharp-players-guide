@@ -372,7 +372,8 @@ The 3 different types of blasts each need their own colors
 // part 1. 'for' loop to fire cannon 100 times
 for (int shots=1; shots < 101; shots++)
 // part 2. if statement to indicate fire blast every 3 turns
-
+    if (shots % 3 == 0)
+        Console.WriteLine("Fire Blast");
 
 // part 3. if statement to indicate electric blast every 5 turns
 
