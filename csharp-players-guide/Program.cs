@@ -400,3 +400,12 @@ for (int shots=1; shots < 101; shots++)
 // part 6. go back and add colors to the special blasts
 */
 
+/* Replicator of D'To
+ replicate the contents of an int array into another array
+ make a program that creates array of length 5
+ ask user for 5 numbers and put them in the array
+ make a second array of length 5
+ use a loop to copy the values of the original array into the new one
+ display contents of both arrays to illustrate the Replicator of D'To works
+*/
+
