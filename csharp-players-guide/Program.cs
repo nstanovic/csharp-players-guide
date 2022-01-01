@@ -359,3 +359,12 @@ do
 while (huntersSpotChoice != shipHidingSpot);
 */
 
+/* The Magic Cannon
+A magic cannon draws power from two gems: fire gem and electric gem
+The cannon is fired 100 times
+Cannon will fire normal blasts for any 
+Every third turn a fire gem activates for a fire blast
+Every fifth turn the electric gem activates for an electric blast
+If a turn activates both the fire and electric gems there is a fiery electric blast
+The 3 different types of blasts each need their own colors
+*/
