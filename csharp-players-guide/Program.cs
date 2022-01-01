@@ -423,6 +423,9 @@ for (int x = 0; x < 5; x++)
 int[] array2 = new int[5];
 
 // part 4. use a loop to copy the first array to the new
-
+for (int y = 0; y < 5; y++)
+{
+    array2[y] = array1[y];
+}
 
 // part 5. display the contents of each array
