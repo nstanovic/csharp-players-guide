@@ -410,7 +410,7 @@ for (int shots=1; shots < 101; shots++)
 */
 
 // part 1. create array with length of 5
-
+int[] array1 = new int[5];
 
 // part 2. ask user for 5 numbers to put in array
 
