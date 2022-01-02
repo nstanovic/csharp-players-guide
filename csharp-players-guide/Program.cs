@@ -422,13 +422,11 @@ for (int x = 0; x < 5; x++)
 // part 3. make a second array with length of 5
 int[] array2 = new int[5];
 
-// part 4. use a loop to copy the first array to the new
+// part 4. use a loop to copy first array to new array then display contents of both
 for (int y = 0; y < 5; y++)
 {
     array2[y] = array1[y];
-    
-// part 5. display the contents of each array
-Console.Write(array1[y] + "\t");
-Thread.Sleep(1000);
-Console.WriteLine(array2[y]);
+    Console.Write(array1[y] + "\t");
+    Thread.Sleep(1000);
+    Console.WriteLine(array2[y]);
 }
