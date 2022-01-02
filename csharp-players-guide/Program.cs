@@ -426,6 +426,9 @@ int[] array2 = new int[5];
 for (int y = 0; y < 5; y++)
 {
     array2[y] = array1[y];
-}
-
+    
 // part 5. display the contents of each array
+Console.Write(array1[y] + "\t");
+Thread.Sleep(1000);
+Console.WriteLine(array2[y]);
+}
