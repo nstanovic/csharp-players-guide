@@ -489,6 +489,9 @@ while (huntersSpotChoice != shipHidingSpot);
 */
 
 /* Countdown
-“The next True Programmer shall be able to write any looping code with a method call instead.” The Senior Counselor, scared of a world without loops, asks you to put your skill to the test and rewrite the following code, which counts down from 10 to 1, with no loops:
-for (int x = 10; x > 0; x--) Console.WriteLine(x);
+“The next True Programmer shall be able to write any looping code with a method call instead.” The Senior Counselor, 
+scared of a world without loops, asks you to put your skill to the test and rewrite the following code, which counts 
+down from 10 to 1, with no loops: for (int x = 10; x > 0; x--) Console.WriteLine(x);
+As you consider the words on the Tomb of Algol the Wise, you begin to think it might be correct and that you might be
+able to write this code using recursion instead of a loop.
 */
