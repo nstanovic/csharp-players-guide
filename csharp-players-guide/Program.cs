@@ -497,7 +497,7 @@ able to write this code using recursion instead of a loop.
 */
 
 //part 1. create a method
-int Countdown()
+int Countdown(int number)
 {
 // part 2. set base case to stop at number
 
