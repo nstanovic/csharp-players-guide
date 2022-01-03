@@ -500,9 +500,9 @@ able to write this code using recursion instead of a loop.
 int Countdown(int number)
 {
 // part 2. set base case to stop at number
+    Console.WriteLine(number);
     if (number == 1) return 1;
 //part 3. make method count down recursively
-
     return Countdown(number - 1);
 }
 // part 4. call function with parameter 10 to test countdown
