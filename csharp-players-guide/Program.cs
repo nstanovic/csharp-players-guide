@@ -441,3 +441,11 @@ for (int y = 0; y < 5; y++)
  Place these methods in at least one of your previous programs to improve it.
 */
 
+// part 1. create method AskForNumber
+
+
+// part 2. create meth AskForNumberInRange
+
+
+// part 3. use these two methods in a previous program
+
