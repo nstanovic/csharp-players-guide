@@ -450,6 +450,18 @@ int AskForNumber(string text)
 }
 
 // part 2. create meth AskForNumberInRange
+int AskForNumberInRange(string text, int min, int max)
+{
+    AskForNumber(text);
+    while (response < min || response > max)
+    {
+        AskForNumber(text);
+    }
+    
+    return response;
+}
+
+AskForNumberInRange("Enter a number between 1 and 10: ", 1, 10);
 
 
 // part 3. use these two methods in a previous program
