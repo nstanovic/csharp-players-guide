@@ -440,9 +440,14 @@ for (int y = 0; y < 5; y++)
  entered number is between the min and max values. Otherwise, ask again.
  Place these methods in at least one of your previous programs to improve it.
 */
-
+int response;
 // part 1. create method AskForNumber
-
+int AskForNumber(string text)
+{
+    Console.WriteLine(text);
+    response = Convert.ToInt32(Console.ReadLine());
+    return response;
+}
 
 // part 2. create meth AskForNumberInRange
 
