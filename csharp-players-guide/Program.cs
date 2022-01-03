@@ -495,3 +495,10 @@ down from 10 to 1, with no loops: for (int x = 10; x > 0; x--) Console.WriteLine
 As you consider the words on the Tomb of Algol the Wise, you begin to think it might be correct and that you might be
 able to write this code using recursion instead of a loop.
 */
+
+//part 1. create a method
+
+// part 2. set base case to stop at number
+    
+//part 3. make method count down recursively
+
