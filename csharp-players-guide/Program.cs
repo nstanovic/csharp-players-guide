@@ -466,3 +466,33 @@ AskForNumberInRange("Enter a number between 1 and 10: ", 1, 10);
 
 // part 3. use these two methods in a previous program
 
+int shipHidingSpot;
+
+do
+{
+    Console.WriteLine("Pick a space between 0 and 100 to hide your ship");
+    shipHidingSpot = Convert.ToInt32(Console.ReadLine());
+}
+while (shipHidingSpot is < 0 or > 100);
+
+int huntersSpotChoice;
+
+do
+{
+    Console.WriteLine("Pick a space between 0 and 100 to check for the airship");
+    huntersSpotChoice = Convert.ToInt32(Console.ReadLine());
+    if (huntersSpotChoice == shipHidingSpot)
+    {
+        Console.WriteLine("Congratulations, you found the ship!");
+    }
+    else if (huntersSpotChoice < shipHidingSpot)
+    {
+        Console.WriteLine("Too low, try again!");
+    }
+    else if (huntersSpotChoice > shipHidingSpot)
+    {
+        Console.WriteLine("Too high, try again!");
+    }
+    Console.WriteLine();
+} 
+while (huntersSpotChoice != shipHidingSpot);
