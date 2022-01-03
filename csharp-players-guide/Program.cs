@@ -500,7 +500,7 @@ able to write this code using recursion instead of a loop.
 int Countdown(int number)
 {
 // part 2. set base case to stop at number
-
+    if (number == 1) return 1;
 //part 3. make method count down recursively
 
 }
