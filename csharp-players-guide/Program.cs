@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
-using System.Threading.Channels;
 
 // Console.WriteLine("Hello, Nick!");
 
@@ -440,6 +438,7 @@ for (int y = 0; y < 5; y++)
  entered number is between the min and max values. Otherwise, ask again.
  Place these methods in at least one of your previous programs to improve it.
 */
+/*
 int response;
 // part 1. create method AskForNumber
 int AskForNumber(string text)
@@ -487,3 +486,5 @@ do
     Console.WriteLine();
 } 
 while (huntersSpotChoice != shipHidingSpot);
+*/
+
