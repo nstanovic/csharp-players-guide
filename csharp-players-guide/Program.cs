@@ -408,7 +408,7 @@ for (int shots=1; shots < 101; shots++)
  use a loop to copy the values of the original array into the new one
  display contents of both arrays to illustrate the Replicator of D'To works
 */
-
+/*
 // part 1. create array with length of 5
 int[] array1 = new int[5];
 
@@ -431,3 +431,13 @@ for (int y = 0; y < 5; y++)
     Thread.Sleep(1000);
     Console.WriteLine(array2[y]);
 }
+
+/* Taking A Number
+ Make a method with the signature int AskForNumber(string text). 
+ Display the text parameter in the console window, get a response from the user, convert it to an int, and return it. 
+ Sample usage: int result = AskForNumber("What is the airspeed velocity of an unladen swallow?"); 
+ Make a method with the signature int AskForNumberInRange(string text, int min, int max). Only return if the
+ entered number is between the min and max values. Otherwise, ask again.
+ Place these methods in at least one of your previous programs to improve it.
+*/
+
