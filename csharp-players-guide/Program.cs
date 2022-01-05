@@ -507,3 +507,34 @@ int Countdown(int number)
 // part 4. call function with parameter 10 to test countdown
 Countdown(10);
 */
+
+/* Hunting The Manticore
+Manticore airship is hiding somewhere in space attacking the city
+Program Skorin's cannon to find and destroy the ship
+player 1 picks where to hide the ship from area 0 to 100
+player 2 picks where to aim cannon from area 0 to 100 and is told whether they overshot the ship or fell short
+Cannon damage is 1 for most rounds but has special attacks on certain turns
+If turn multiple of 3: fire blast (3 POINTS), multiple of 5: electric blast (3), multiple of both fiery electric (10)
+
+If Manticore survives a turn, it will deal guaranteed 1 damage to city
+City can only take 15 points of damage before being annihilated
+
+Sample:
+Player 2, it is your turn. 
+----------------------------------------------------------- 
+STATUS: Round: 1 City: 15/15 Manticore: 10/10 
+The cannon is expected to deal 1 damage this round.
+Enter desired cannon range: 50
+That round OVERSHOT the target.
+-----------------------------------------------------------
+STATUS: Round: 2 City: 14/15 Manticore: 10/10
+The cannon is expected to deal 1 damage this round.
+Enter desired cannon range: 25
+That round FELL SHORT of the target.
+-----------------------------------------------------------
+STATUS: Round: 3 City: 13/15 Manticore: 10/10
+The cannon is expected to deal 3 damage this round.
+Enter desired cannon range: 32
+That round was a DIRECT HIT!
+-----------------------------------------------------------
+*/
