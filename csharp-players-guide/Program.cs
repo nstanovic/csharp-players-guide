@@ -558,6 +558,8 @@ int round = 1;
 Console.Write("Round: " + round + "/15 \t");
 
 //part 4. display city health
+int cityHealth = 15;
+Console.Write("City: " + cityHealth + "/15 \t");
 
 //part 5. display manticore health
 
