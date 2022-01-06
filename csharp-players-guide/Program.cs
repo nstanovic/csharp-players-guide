@@ -590,6 +590,18 @@ Console.WriteLine("Enter desired cannon range between 0 and 100: ");
 int cannonRange = Convert.ToInt32(Console.ReadLine());
 
 //part 8. display if they overshot, fell short, or direct hit
+if (cannonRange > shipHidingSpot)
+{
+    Console.WriteLine("That round OVERSHOT the target.");
+}
+else if (cannonRange < shipHidingSpot)
+{
+    Console.WriteLine("That round FELL SHORT of the target.");
+}
+else
+{
+    Console.WriteLine("That round was a DIRECT HIT!");
+}
 
 //part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
 
