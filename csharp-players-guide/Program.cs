@@ -566,6 +566,24 @@ int manticoreHealth = 10;
 Console.WriteLine("Manticore: " + manticoreHealth + "/10");
 
 //part 6. display how much damage cannon is expected to do this round
+int cannonDamage;
+if (round % 3 == 0 && round % 5 == 0)
+{
+    cannonDamage = 10;
+}
+else if (round % 3 == 0)
+{
+    cannonDamage = 3;
+}
+else if (round % 5 == 0)
+{
+    cannonDamage = 3;
+}
+else
+{
+    cannonDamage = 1;
+}
+Console.WriteLine("The cannon is expected to deal " + cannonDamage + " damage this round.");
 
 //part 7. ask player 2 for a number between 0 and 100 to aim their cannon
 
