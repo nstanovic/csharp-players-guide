@@ -540,6 +540,10 @@ Enter desired cannon range: 32
 That round was a DIRECT HIT!
 -----------------------------------------------------------
 */
+int round = 1;
+int cityHealth = 15;
+int manticoreHealth = 10;
+
 //part 1. ask player 1 for a number between 0 and 100 to hide their ship
 Console.WriteLine("Pick a space between 0 and 100 to hide your ship: ");
 int shipHidingSpot = Convert.ToInt32(Console.ReadLine());
@@ -554,15 +558,12 @@ Console.WriteLine("Player 2, It is your turn.");
 Console.WriteLine("-----------------------------------------------------------");
 
 //part 3. display the round number
-int round = 1;
 Console.Write("Round: " + round + "/15 \t");
 
 //part 4. display city health
-int cityHealth = 15;
 Console.Write("City: " + cityHealth + "/15 \t");
 
 //part 5. display manticore health
-int manticoreHealth = 10;
 Console.WriteLine("Manticore: " + manticoreHealth + "/10");
 
 //part 6. display how much damage cannon is expected to do this round
@@ -583,6 +584,7 @@ else
 {
     cannonDamage = 1;
 }
+
 Console.WriteLine("The cannon is expected to deal " + cannonDamage + " damage this round.");
 
 //part 7. ask player 2 for a number between 0 and 100 to aim their cannon
@@ -647,7 +649,6 @@ if (manticoreHealth <= 0)
 {
     Console.WriteLine("GAME OVER! Manticore was annihilated.");
 }
-
 //part 15. loop the program until city or manticore health is 0
 
 //part 16. add color to the game
