@@ -649,3 +649,7 @@ if (manticoreHealth == 0)
 }
 
 //part 15. loop the program until city or manticore health is 0
+
+//part 16. add color to the game
+
+
