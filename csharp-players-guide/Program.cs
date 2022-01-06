@@ -538,3 +538,32 @@ Enter desired cannon range: 32
 That round was a DIRECT HIT!
 -----------------------------------------------------------
 */
+//part 1. ask player 1 for a number between 0 and 100 to hide their ship
+
+//part 2. tell player 2 it's their turn
+
+//part 3. display the round number
+
+//part 4. display city health
+
+//part 5. display manticore health
+
+//part 6. display how much damage cannon is expected to do this round
+
+//part 7. ask player 2 for a number between 0 and 100 to aim their cannon
+
+//part 8. display if they overshot, fell short, or direct hit
+
+//part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
+
+//part 10. increase round number by 1
+
+//part 11. decrease city health by 1
+
+//part 12. if manticore took damage, decrease manticore health by damage done
+
+//part 13. if city health is 0, display game over and end game
+
+//part 14. if manticore health is 0, display game over and end game
+
+//part 15. rewrite the game to incorporate methods
