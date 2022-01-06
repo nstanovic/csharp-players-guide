@@ -604,6 +604,25 @@ else
 }
 
 //part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
+if (cannonRange == shipHidingSpot)
+{
+    if (round % 3 == 0 && round % 5 == 0)
+    {
+        Console.WriteLine("FIERY ELECTRIC BLAST!");
+    }
+    else if (round % 3 == 0)
+    {
+        Console.WriteLine("FIRE BLAST!");
+    }
+    else if (round % 5 == 0)
+    {
+        Console.WriteLine("ELECTRIC BLAST!");
+    }
+    else
+    {
+        Console.WriteLine("You landed a normal shot!");
+    }
+}
 
 //part 10. increase round number by 1
 
