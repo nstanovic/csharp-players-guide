@@ -637,6 +637,10 @@ if (cannonRange == shipHidingSpot)
 }
 
 //part 13. if city health is 0, display game over and end game
+if (cityHealth == 0)
+{
+    Console.WriteLine("GAME OVER! City was annihilated.");
+}
 
 //part 14. if manticore health is 0, display game over and end game
 
