@@ -554,6 +554,8 @@ Console.WriteLine("Player 2, It is your turn.");
 Console.WriteLine("-----------------------------------------------------------");
 
 //part 3. display the round number
+int round = 1;
+Console.Write("Round: " + round + "/15 \t");
 
 //part 4. display city health
 
