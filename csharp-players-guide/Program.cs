@@ -550,6 +550,8 @@ while( shipHidingSpot < 0 || shipHidingSpot > 100)
 }
 
 //part 2. tell player 2 it's their turn
+Console.WriteLine("Player 2, It is your turn.");
+Console.WriteLine("-----------------------------------------------------------");
 
 //part 3. display the round number
 
