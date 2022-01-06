@@ -628,6 +628,7 @@ if (cannonRange == shipHidingSpot)
 round++;
 
 //part 11. decrease city health by 1
+cityHealth--;
 
 //part 12. if manticore took damage, decrease manticore health by damage done
 
