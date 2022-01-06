@@ -652,4 +652,4 @@ if (manticoreHealth == 0)
 
 //part 16. add color to the game
 
-
+//part 17. reorganize the program to use methods and recursion
