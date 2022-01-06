@@ -625,6 +625,7 @@ if (cannonRange == shipHidingSpot)
 }
 
 //part 10. increase round number by 1
+round++;
 
 //part 11. decrease city health by 1
 
