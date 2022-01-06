@@ -586,6 +586,8 @@ else
 Console.WriteLine("The cannon is expected to deal " + cannonDamage + " damage this round.");
 
 //part 7. ask player 2 for a number between 0 and 100 to aim their cannon
+Console.WriteLine("Enter desired cannon range between 0 and 100: ");
+int cannonRange = Convert.ToInt32(Console.ReadLine());
 
 //part 8. display if they overshot, fell short, or direct hit
 
