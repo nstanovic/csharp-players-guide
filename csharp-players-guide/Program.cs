@@ -562,6 +562,8 @@ int cityHealth = 15;
 Console.Write("City: " + cityHealth + "/15 \t");
 
 //part 5. display manticore health
+int manticoreHealth = 10;
+Console.WriteLine("Manticore: " + manticoreHealth + "/10");
 
 //part 6. display how much damage cannon is expected to do this round
 
