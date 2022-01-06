@@ -648,4 +648,4 @@ if (manticoreHealth == 0)
     Console.WriteLine("GAME OVER! Manticore was annihilated.");
 }
 
-//part 15. rewrite the game to incorporate methods
+//part 15. loop the program until city or manticore health is 0
