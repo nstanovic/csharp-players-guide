@@ -639,7 +639,8 @@ do
     {
         manticoreHealth -= cannonDamage;
     }
-
+    
+    Console.Clear();
     //part 13. if city health is 0 or less, display game over and end game
     if (cityHealth <= 0)
     {
