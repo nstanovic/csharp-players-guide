@@ -631,6 +631,10 @@ round++;
 cityHealth--;
 
 //part 12. if manticore took damage, decrease manticore health by damage done
+if (cannonRange == shipHidingSpot)
+{
+    manticoreHealth -= cannonDamage;
+}
 
 //part 13. if city health is 0, display game over and end game
 
