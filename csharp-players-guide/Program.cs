@@ -545,7 +545,7 @@ int cityHealth = 15;
 int manticoreHealth = 10;
 
 //part 1. ask player 1 for a number between 0 and 100 to hide their ship
-Console.WriteLine("Pick a space between 0 and 100 to hide your ship: ");
+Console.WriteLine("Player 1, Pick a space between 0 and 100 to hide your ship: ");
 int shipHidingSpot = Convert.ToInt32(Console.ReadLine());
 while( shipHidingSpot < 0 || shipHidingSpot > 100)
 {
@@ -643,9 +643,6 @@ do
     //part 10. increase round number by 1
     round++;
 
-    //part 11. decrease city health by 1
-    cityHealth--;
-
     //part 12. if manticore took damage, decrease manticore health by damage done
     if (cannonRange == shipHidingSpot)
     {
@@ -670,6 +667,8 @@ do
         Console.ForegroundColor = ConsoleColor.Black;
         Console.WriteLine("GAME OVER! Manticore was annihilated.");
     }
+    //part 11. decrease city health by 1
+    cityHealth--;
 }
 //part 15. loop the program until city or manticore health is 0
 while (cityHealth > 0 && manticoreHealth > 0);
