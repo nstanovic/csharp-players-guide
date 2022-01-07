@@ -596,15 +596,21 @@ do
     //part 8. display if they overshot, fell short, or direct hit
     if (cannonRange > shipHidingSpot)
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("That round OVERSHOT the target.");
+        Console.ResetColor();
     }
     else if (cannonRange < shipHidingSpot)
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("That round FELL SHORT of the target.");
+        Console.ResetColor();
     }
     else
     {
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("That round was a DIRECT HIT!");
+        Console.ResetColor();
     }
 
     //part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
@@ -612,15 +618,21 @@ do
     {
         if (round % 3 == 0 && round % 5 == 0)
         {
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("FIERY ELECTRIC BLAST!");
+            Console.ResetColor();
         }
         else if (round % 3 == 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("FIRE BLAST!");
+            Console.ResetColor();
         }
         else if (round % 5 == 0)
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("ELECTRIC BLAST!");
+            Console.ResetColor();
         }
         else
         {
@@ -645,12 +657,17 @@ do
     //part 13. if city health is 0 or less, display game over and end game
     if (cityHealth <= 0)
     {
+        Console.BackgroundColor = ConsoleColor.DarkRed;
+        Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("GAME OVER! City was annihilated.");
+        Console.ResetColor();
     }
 
     //part 14. if manticore health is 0 or less, display game over and end game
     if (manticoreHealth <= 0)
     {
+        Console.BackgroundColor = ConsoleColor.DarkGreen;
+        Console.ForegroundColor = ConsoleColor.Black;
         Console.WriteLine("GAME OVER! Manticore was annihilated.");
     }
 }
@@ -658,5 +675,6 @@ do
 while (cityHealth > 0 && manticoreHealth > 0);
 
 //part 16. add color to the game
+//done
 
 //part 17. reorganize the program to use methods and recursion
