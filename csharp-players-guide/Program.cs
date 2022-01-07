@@ -655,7 +655,7 @@ do
     if (cityHealth <= 0)
     {
         Console.BackgroundColor = ConsoleColor.DarkRed;
-        Console.ForegroundColor = ConsoleColor.White;
+        Console.ForegroundColor = ConsoleColor.Black;
         Console.WriteLine("GAME OVER! City was annihilated.");
         Console.ResetColor();
     }
@@ -664,7 +664,7 @@ do
     if (manticoreHealth <= 0)
     {
         Console.BackgroundColor = ConsoleColor.DarkGreen;
-        Console.ForegroundColor = ConsoleColor.Black;
+        Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("GAME OVER! Manticore was annihilated.");
     }
     //part 11. decrease city health by 1
