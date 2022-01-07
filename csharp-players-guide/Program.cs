@@ -549,7 +549,7 @@ Console.WriteLine("Pick a space between 0 and 100 to hide your ship: ");
 int shipHidingSpot = Convert.ToInt32(Console.ReadLine());
 while( shipHidingSpot < 0 || shipHidingSpot > 100)
 {
-    Console.WriteLine("Pick a space between 0 and 100 to hide your ship: ");
+    Console.WriteLine("Player 1, Pick a space between 0 and 100 to hide your ship: ");
     shipHidingSpot = Convert.ToInt32(Console.ReadLine());
 }
 
