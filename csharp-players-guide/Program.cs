@@ -670,7 +670,7 @@ if (cityHealth <= 0)
 {
     Console.BackgroundColor = ConsoleColor.DarkRed;
     Console.ForegroundColor = ConsoleColor.Black;
-    Console.WriteLine("GAME OVER! City was annihilated.");
+    Console.WriteLine("GAME OVER! City was annihilated. Player 1 wins!");
     Console.ResetColor();
 }
 
@@ -679,7 +679,7 @@ if (manticoreHealth <= 0)
 {
     Console.BackgroundColor = ConsoleColor.Green;
     Console.ForegroundColor = ConsoleColor.White;
-    Console.WriteLine("GAME OVER! Manticore was annihilated.");
+    Console.WriteLine("GAME OVER! Manticore was annihilated. Player 2 wins!");
 }
 //part 11. decrease city health by 1
 cityHealth--;
