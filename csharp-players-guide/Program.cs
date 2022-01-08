@@ -710,6 +710,7 @@ void PlayGame()
     }
 }
 
+PlayGame();
 
 //part 16. add color to the game
 //done
