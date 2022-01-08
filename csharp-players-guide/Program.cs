@@ -652,8 +652,6 @@ if (cannonRange == shipHidingSpot)
     }
 }
 
-//part 10. increase round number by 1
-round++;
 
 //part 12. if manticore took damage, decrease manticore health by damage done
 if (cannonRange == shipHidingSpot)
@@ -681,6 +679,7 @@ if (manticoreHealth <= 0)
 }
 //part 11. decrease city health by 1
 cityHealth--;
+round++;
 
 //part 15. loop the program until city or manticore health is 0
 
