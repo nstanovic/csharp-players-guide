@@ -698,7 +698,6 @@ void PlayGame()
 {
     while (cityHealth > 0 && manticoreHealth > 0)
     {
-        BeginGame();
         DisplayGameStatus();
         CalculateCannonDamage();
         AskCannonRange();
@@ -710,6 +709,7 @@ void PlayGame()
     }
 }
 
+BeginGame();
 PlayGame();
 
 //part 16. add color to the game
