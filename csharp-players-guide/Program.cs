@@ -685,9 +685,12 @@ void CheckForWinner()
     }
 }
 
-//part 11. decrease city health by 1
-cityHealth--;
-round++;
+void ContinueGameIfNoWinner()
+{
+    //part 11. decrease city health by 1
+    cityHealth--;
+    round++;
+}
 
 //part 15. loop the program until city or manticore health is 0
 
