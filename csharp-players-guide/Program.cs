@@ -690,6 +690,7 @@ void ContinueGameIfNoWinner()
 //part 11. progress the game to the next round
     cityHealth--;
     round++;
+    PlayGame();
 }
 
 //part 15. loop the program until city or manticore health is 0
@@ -697,6 +698,7 @@ void PlayGame()
 {
     while (cityHealth > 0 && manticoreHealth > 0)
     {
+        BeginGame();
         DisplayGameStatus();
         CalculateCannonDamage();
         AskCannonRange();
@@ -707,6 +709,7 @@ void PlayGame()
         ContinueGameIfNoWinner();
     }
 }
+
 
 //part 16. add color to the game
 //done
