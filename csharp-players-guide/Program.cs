@@ -655,14 +655,10 @@ void DisplayShotType()
         {
             Console.WriteLine("You landed a normal shot!");
         }
+        manticoreHealth -= cannonDamage;
     }
 }
 
-//part 12. if manticore took damage, decrease manticore health by damage done
-if (cannonRange == shipHidingSpot)
-{
-    manticoreHealth -= cannonDamage;
-}
 Thread.Sleep(2000);
 Console.Clear();
 
