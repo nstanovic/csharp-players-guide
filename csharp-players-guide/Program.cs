@@ -545,12 +545,15 @@ int cityHealth = 15;
 int manticoreHealth = 10;
 
 //part 1. ask player 1 for a number between 0 and 100 to hide their ship
-Console.WriteLine("Player 1, Pick a space between 0 and 100 to hide your ship: ");
-int shipHidingSpot = Convert.ToInt32(Console.ReadLine());
-while( shipHidingSpot < 0 || shipHidingSpot > 100)
+void BeginGame()
 {
     Console.WriteLine("Player 1, Pick a space between 0 and 100 to hide your ship: ");
-    shipHidingSpot = Convert.ToInt32(Console.ReadLine());
+    int shipHidingSpot = Convert.ToInt32(Console.ReadLine());
+    while (shipHidingSpot < 0 || shipHidingSpot > 100)
+    {
+        Console.WriteLine("Player 1, Pick a space between 0 and 100 to hide your ship: ");
+        shipHidingSpot = Convert.ToInt32(Console.ReadLine());
+    }
 }
 
 do 
