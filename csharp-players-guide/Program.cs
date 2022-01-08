@@ -556,129 +556,129 @@ void BeginGame()
     }
 }
 
-   void DisplayGameStatus()
-   {
-       //part 2. tell player 2 it's their turn
-       Console.WriteLine("Player 2, It is your turn.");
-       Console.WriteLine("-----------------------------------------------------------");
+void DisplayGameStatus()
+{
+   //part 2. tell player 2 it's their turn
+   Console.WriteLine("Player 2, It is your turn.");
+   Console.WriteLine("-----------------------------------------------------------");
 
-       //part 3. display the round number
-       Console.Write("Round: " + round + "/15 \t");
+   //part 3. display the round number
+   Console.Write("Round: " + round + "/15 \t");
 
-       //part 4. display city health
-       Console.Write("City: " + cityHealth + "/15 \t");
+   //part 4. display city health
+   Console.Write("City: " + cityHealth + "/15 \t");
 
-       //part 5. display manticore health
-       Console.WriteLine("Manticore: " + manticoreHealth + "/10");
+   //part 5. display manticore health
+   Console.WriteLine("Manticore: " + manticoreHealth + "/10");
 
-   }
-    //part 6. display how much damage cannon is expected to do this round
-    void CalculateCannonDamage()
+}
+//part 6. display how much damage cannon is expected to do this round
+void CalculateCannonDamage()
+{
+    int cannonDamage;
+    if (round % 3 == 0 && round % 5 == 0)
     {
-        int cannonDamage;
-        if (round % 3 == 0 && round % 5 == 0)
-        {
-            cannonDamage = 10;
-        }
-        else if (round % 3 == 0)
-        {
-            cannonDamage = 3;
-        }
-        else if (round % 5 == 0)
-        {
-            cannonDamage = 3;
-        }
-        else
-        {
-            cannonDamage = 1;
-        }
-
-        Console.WriteLine("The cannon is expected to deal " + cannonDamage + " damage this round.");
+        cannonDamage = 10;
+    }
+    else if (round % 3 == 0)
+    {
+        cannonDamage = 3;
+    }
+    else if (round % 5 == 0)
+    {
+        cannonDamage = 3;
+    }
+    else
+    {
+        cannonDamage = 1;
     }
 
-    //part 7. ask player 2 for a number between 0 and 100 to aim their cannon
-     void AskCannonRange()
-     {
-         Console.WriteLine("Enter desired cannon range between 0 and 100: ");
-         int cannonRange = Convert.ToInt32(Console.ReadLine());
-     }
+    Console.WriteLine("The cannon is expected to deal " + cannonDamage + " damage this round.");
+}
 
-    //part 8. display if they overshot, fell short, or direct hit
-    if (cannonRange > shipHidingSpot)
+//part 7. ask player 2 for a number between 0 and 100 to aim their cannon
+ void AskCannonRange()
+ {
+     Console.WriteLine("Enter desired cannon range between 0 and 100: ");
+     int cannonRange = Convert.ToInt32(Console.ReadLine());
+ }
+
+//part 8. display if they overshot, fell short, or direct hit
+if (cannonRange > shipHidingSpot)
+{
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    Console.WriteLine("That round OVERSHOT the target.");
+    Console.ResetColor();
+}
+else if (cannonRange < shipHidingSpot)
+{
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    Console.WriteLine("That round FELL SHORT of the target.");
+    Console.ResetColor();
+}
+else
+{
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine("That round was a DIRECT HIT!");
+    Console.ResetColor();
+}
+
+//part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
+if (cannonRange == shipHidingSpot)
+{
+    if (round % 3 == 0 && round % 5 == 0)
     {
-        Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine("That round OVERSHOT the target.");
+        Console.ForegroundColor = ConsoleColor.Magenta;
+        Console.WriteLine("FIERY ELECTRIC BLAST!");
         Console.ResetColor();
     }
-    else if (cannonRange < shipHidingSpot)
+    else if (round % 3 == 0)
     {
-        Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine("That round FELL SHORT of the target.");
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("FIRE BLAST!");
+        Console.ResetColor();
+    }
+    else if (round % 5 == 0)
+    {
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine("ELECTRIC BLAST!");
         Console.ResetColor();
     }
     else
     {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("That round was a DIRECT HIT!");
-        Console.ResetColor();
+        Console.WriteLine("You landed a normal shot!");
     }
+}
 
-    //part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
-    if (cannonRange == shipHidingSpot)
-    {
-        if (round % 3 == 0 && round % 5 == 0)
-        {
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("FIERY ELECTRIC BLAST!");
-            Console.ResetColor();
-        }
-        else if (round % 3 == 0)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("FIRE BLAST!");
-            Console.ResetColor();
-        }
-        else if (round % 5 == 0)
-        {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("ELECTRIC BLAST!");
-            Console.ResetColor();
-        }
-        else
-        {
-            Console.WriteLine("You landed a normal shot!");
-        }
-    }
+//part 10. increase round number by 1
+round++;
 
-    //part 10. increase round number by 1
-    round++;
+//part 12. if manticore took damage, decrease manticore health by damage done
+if (cannonRange == shipHidingSpot)
+{
+    manticoreHealth -= cannonDamage;
+}
+Thread.Sleep(2000);
+Console.Clear();
 
-    //part 12. if manticore took damage, decrease manticore health by damage done
-    if (cannonRange == shipHidingSpot)
-    {
-        manticoreHealth -= cannonDamage;
-    }
-    Thread.Sleep(2000);
-    Console.Clear();
-    
-    //part 13. if city health is 0 or less, display game over and end game
-    if (cityHealth <= 0)
-    {
-        Console.BackgroundColor = ConsoleColor.DarkRed;
-        Console.ForegroundColor = ConsoleColor.Black;
-        Console.WriteLine("GAME OVER! City was annihilated.");
-        Console.ResetColor();
-    }
+//part 13. if city health is 0 or less, display game over and end game
+if (cityHealth <= 0)
+{
+    Console.BackgroundColor = ConsoleColor.DarkRed;
+    Console.ForegroundColor = ConsoleColor.Black;
+    Console.WriteLine("GAME OVER! City was annihilated.");
+    Console.ResetColor();
+}
 
-    //part 14. if manticore health is 0 or less, display game over and end game
-    if (manticoreHealth <= 0)
-    {
-        Console.BackgroundColor = ConsoleColor.Green;
-        Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("GAME OVER! Manticore was annihilated.");
-    }
-    //part 11. decrease city health by 1
-    cityHealth--;
+//part 14. if manticore health is 0 or less, display game over and end game
+if (manticoreHealth <= 0)
+{
+    Console.BackgroundColor = ConsoleColor.Green;
+    Console.ForegroundColor = ConsoleColor.White;
+    Console.WriteLine("GAME OVER! Manticore was annihilated.");
+}
+//part 11. decrease city health by 1
+cityHealth--;
 
 //part 15. loop the program until city or manticore health is 0
 
