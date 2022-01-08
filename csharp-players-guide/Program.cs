@@ -687,7 +687,7 @@ void CheckForWinner()
 
 void ContinueGameIfNoWinner()
 {
-    //part 11. decrease city health by 1
+    //part 11. progress the game to the next round
     cityHealth--;
     round++;
 }
