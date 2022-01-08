@@ -555,19 +555,22 @@ while( shipHidingSpot < 0 || shipHidingSpot > 100)
 
 do 
 {
-    //part 2. tell player 2 it's their turn
-    Console.WriteLine("Player 2, It is your turn.");
-    Console.WriteLine("-----------------------------------------------------------");
+   void DisplayGameStatus()
+   {
+       //part 2. tell player 2 it's their turn
+       Console.WriteLine("Player 2, It is your turn.");
+       Console.WriteLine("-----------------------------------------------------------");
 
-    //part 3. display the round number
-    Console.Write("Round: " + round + "/15 \t");
+       //part 3. display the round number
+       Console.Write("Round: " + round + "/15 \t");
 
-    //part 4. display city health
-    Console.Write("City: " + cityHealth + "/15 \t");
+       //part 4. display city health
+       Console.Write("City: " + cityHealth + "/15 \t");
 
-    //part 5. display manticore health
-    Console.WriteLine("Manticore: " + manticoreHealth + "/10");
+       //part 5. display manticore health
+       Console.WriteLine("Manticore: " + manticoreHealth + "/10");
 
+   }
     //part 6. display how much damage cannon is expected to do this round
     int cannonDamage;
     if (round % 3 == 0 && round % 5 == 0)
