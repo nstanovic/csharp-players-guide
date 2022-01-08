@@ -605,24 +605,27 @@ void CalculateCannonDamage()
      cannonRange = Convert.ToInt32(Console.ReadLine());
  }
 
+void CheckHitOrMiss()
+{
 //part 8. display if they overshot, fell short, or direct hit
-if (cannonRange > shipHidingSpot)
-{
-    Console.ForegroundColor = ConsoleColor.Yellow;
-    Console.WriteLine("That round OVERSHOT the target.");
-    Console.ResetColor();
-}
-else if (cannonRange < shipHidingSpot)
-{
-    Console.ForegroundColor = ConsoleColor.Yellow;
-    Console.WriteLine("That round FELL SHORT of the target.");
-    Console.ResetColor();
-}
-else
-{
-    Console.ForegroundColor = ConsoleColor.Green;
-    Console.WriteLine("That round was a DIRECT HIT!");
-    Console.ResetColor();
+    if (cannonRange > shipHidingSpot)
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("That round OVERSHOT the target.");
+        Console.ResetColor();
+    }
+    else if (cannonRange < shipHidingSpot)
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("That round FELL SHORT of the target.");
+        Console.ResetColor();
+    }
+    else
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("That round was a DIRECT HIT!");
+        Console.ResetColor();
+    }
 }
 
 //part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
