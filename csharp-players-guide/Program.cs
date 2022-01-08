@@ -628,33 +628,35 @@ void CheckHitOrMiss()
     }
 }
 
-//part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
-if (cannonRange == shipHidingSpot)
+void DisplayShotType()
 {
-    if (round % 3 == 0 && round % 5 == 0)
+//part 9. if direct hit, display whether it was a normal shot, fire blast, electric blast, or fiery electric blast 
+    if (cannonRange == shipHidingSpot)
     {
-        Console.ForegroundColor = ConsoleColor.Magenta;
-        Console.WriteLine("FIERY ELECTRIC BLAST!");
-        Console.ResetColor();
-    }
-    else if (round % 3 == 0)
-    {
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("FIRE BLAST!");
-        Console.ResetColor();
-    }
-    else if (round % 5 == 0)
-    {
-        Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("ELECTRIC BLAST!");
-        Console.ResetColor();
-    }
-    else
-    {
-        Console.WriteLine("You landed a normal shot!");
+        if (round % 3 == 0 && round % 5 == 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("FIERY ELECTRIC BLAST!");
+            Console.ResetColor();
+        }
+        else if (round % 3 == 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("FIRE BLAST!");
+            Console.ResetColor();
+        }
+        else if (round % 5 == 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("ELECTRIC BLAST!");
+            Console.ResetColor();
+        }
+        else
+        {
+            Console.WriteLine("You landed a normal shot!");
+        }
     }
 }
-
 
 //part 12. if manticore took damage, decrease manticore health by damage done
 if (cannonRange == shipHidingSpot)
