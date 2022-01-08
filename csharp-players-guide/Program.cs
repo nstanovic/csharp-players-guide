@@ -682,6 +682,7 @@ void CheckForWinner()
         Console.BackgroundColor = ConsoleColor.Green;
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("GAME OVER! Manticore was annihilated. Player 2 wins!");
+        Console.ResetColor();
     }
 }
 
