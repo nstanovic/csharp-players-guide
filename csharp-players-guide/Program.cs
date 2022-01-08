@@ -556,8 +556,6 @@ void BeginGame()
     }
 }
 
-do 
-{
    void DisplayGameStatus()
    {
        //part 2. tell player 2 it's their turn
@@ -681,9 +679,9 @@ do
     }
     //part 11. decrease city health by 1
     cityHealth--;
-}
+
 //part 15. loop the program until city or manticore health is 0
-while (cityHealth > 0 && manticoreHealth > 0);
+
 
 //part 16. add color to the game
 //done
