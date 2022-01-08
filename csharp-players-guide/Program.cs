@@ -540,15 +540,18 @@ Enter desired cannon range: 32
 That round was a DIRECT HIT!
 -----------------------------------------------------------
 */
+int shipHidingSpot;
 int round = 1;
 int cityHealth = 15;
 int manticoreHealth = 10;
+int cannonDamage;
+int cannonRange;
 
 //part 1. ask player 1 for a number between 0 and 100 to hide their ship
 void BeginGame()
 {
     Console.WriteLine("Player 1, Pick a space between 0 and 100 to hide your ship: ");
-    int shipHidingSpot = Convert.ToInt32(Console.ReadLine());
+    shipHidingSpot = Convert.ToInt32(Console.ReadLine());
     while (shipHidingSpot < 0 || shipHidingSpot > 100)
     {
         Console.WriteLine("Player 1, Pick a space between 0 and 100 to hide your ship: ");
@@ -575,7 +578,6 @@ void DisplayGameStatus()
 //part 6. display how much damage cannon is expected to do this round
 void CalculateCannonDamage()
 {
-    int cannonDamage;
     if (round % 3 == 0 && round % 5 == 0)
     {
         cannonDamage = 10;
@@ -600,7 +602,7 @@ void CalculateCannonDamage()
  void AskCannonRange()
  {
      Console.WriteLine("Enter desired cannon range between 0 and 100: ");
-     int cannonRange = Convert.ToInt32(Console.ReadLine());
+     cannonRange = Convert.ToInt32(Console.ReadLine());
  }
 
 //part 8. display if they overshot, fell short, or direct hit
