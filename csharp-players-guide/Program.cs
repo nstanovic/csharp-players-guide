@@ -696,17 +696,14 @@ void ContinueGameIfNoWinner()
 //part 15. loop the program until city or manticore health is 0
 void PlayGame()
 {
-    while (cityHealth > 0 && manticoreHealth > 0)
-    {
-        DisplayGameStatus();
-        CalculateCannonDamage();
-        AskCannonRange();
-        CheckHitOrMiss();
-        DisplayShotType();
-        PauseAndClearBeforeNextRound();
-        CheckForWinner();
-        ContinueGameIfNoWinner();
-    }
+    DisplayGameStatus();
+    CalculateCannonDamage();
+    AskCannonRange();
+    CheckHitOrMiss();
+    DisplayShotType();
+    PauseAndClearBeforeNextRound();
+    CheckForWinner();
+    ContinueGameIfNoWinner();
 }
 
 BeginGame();
