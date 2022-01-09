@@ -683,12 +683,16 @@ void CheckForWinner()
     }
 
 //part 14. if manticore health is 0 or less, display game over and end game
-    if (manticoreHealth <= 0)
+    else if (manticoreHealth <= 0)
     {
         Console.BackgroundColor = ConsoleColor.Green;
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("GAME OVER! Manticore was annihilated. Player 2 wins!");
         Console.ResetColor();
+    }
+    else
+    {
+        PlayGame();
     }
 }
 
