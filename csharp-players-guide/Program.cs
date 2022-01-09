@@ -540,6 +540,7 @@ Enter desired cannon range: 32
 That round was a DIRECT HIT!
 -----------------------------------------------------------
 */
+/*
 int shipHidingSpot;
 int round = 1;
 int cityHealth = 15;
@@ -716,3 +717,4 @@ PlayGame();
 
 //part 17. reorganize the program to use methods and recursion
 //done
+*/
