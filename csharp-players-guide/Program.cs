@@ -708,6 +708,7 @@ void PlayGame()
 }
 
 SetupGame();
+PauseAndClearBeforeNextRound();
 PlayGame();
 
 //part 16. add color to the game
