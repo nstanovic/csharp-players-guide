@@ -674,20 +674,19 @@ void FinishRound()
 void CheckForWinner()
 {
 //part 13. if city health is 0 or less, display game over and end game
-    if (cityHealth <= 0)
-    {
-        Console.BackgroundColor = ConsoleColor.DarkRed;
-        Console.ForegroundColor = ConsoleColor.Black;
-        Console.WriteLine("GAME OVER! City was annihilated. Player 1 wins!");
-        Console.ResetColor();
-    }
-
-//part 14. if manticore health is 0 or less, display game over and end game
-    else if (manticoreHealth <= 0)
+    if (manticoreHealth <= 0)
     {
         Console.BackgroundColor = ConsoleColor.Green;
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("GAME OVER! Manticore was annihilated. Player 2 wins!");
+        Console.ResetColor();
+    }
+//part 14. if manticore health is 0 or less, display game over and end game
+    else if (cityHealth <= 0)
+    {
+        Console.BackgroundColor = ConsoleColor.DarkRed;
+        Console.ForegroundColor = ConsoleColor.Black;
+        Console.WriteLine("GAME OVER! City was annihilated. Player 1 wins!");
         Console.ResetColor();
     }
     else
