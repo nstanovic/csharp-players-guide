@@ -546,9 +546,8 @@ int cityHealth = 15;
 int manticoreHealth = 10;
 int cannonDamage;
 int cannonRange;
-
 //part 1. ask player 1 for a number between 0 and 100 to hide their ship
-void BeginGame()
+void SetupGame()
 {
     Console.WriteLine("Player 1, Pick a space between 0 and 100 to hide your ship: ");
     shipHidingSpot = Convert.ToInt32(Console.ReadLine());
@@ -708,7 +707,7 @@ void PlayGame()
     CheckForWinner();
 }
 
-BeginGame();
+SetupGame();
 PlayGame();
 
 //part 16. add color to the game
