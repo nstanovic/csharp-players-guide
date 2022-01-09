@@ -686,14 +686,6 @@ void CheckForWinner()
     }
 }
 
-void ContinueGameIfNoWinner()
-{
-//part 11. progress the game to the next round
-    cityHealth--;
-    round++;
-    PlayGame();
-}
-
 //part 15. loop the program until city or manticore health is 0
 void PlayGame()
 {
@@ -704,7 +696,6 @@ void PlayGame()
     DisplayShotType();
     PauseAndClearBeforeNextRound();
     CheckForWinner();
-    ContinueGameIfNoWinner();
 }
 
 BeginGame();
