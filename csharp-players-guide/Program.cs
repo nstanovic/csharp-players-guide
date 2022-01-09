@@ -665,6 +665,12 @@ void PauseAndClearBeforeNextRound()
     Console.Clear();
 }
 
+void FinishRound()
+{
+    cityHealth--;
+    round++;
+}
+
 void CheckForWinner()
 {
 //part 13. if city health is 0 or less, display game over and end game
@@ -695,6 +701,7 @@ void PlayGame()
     CheckHitOrMiss();
     DisplayShotType();
     PauseAndClearBeforeNextRound();
+    FinishRound();
     CheckForWinner();
 }
 
